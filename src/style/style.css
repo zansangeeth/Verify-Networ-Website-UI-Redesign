@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0px;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+nav .container img{
+    width: 150px;
+}
+
+nav .container .primary-menu a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #292828;
+    margin-left: 20px;
+}
+
+nav .container .primary-menu .primary-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #35688D;
+    color: white;
+    border-radius: 5px;
+}
+
+header .header-svg{
+    width: 100%;
+    
+
+}
+
+header{
+    position: relative;
+}
+
+header .container{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+header .container .left{
+    width: 50%;
+}
+
+header .container .right{
+    width: 50%;
+}
+
+header .container .left h1{
+    color: #35688D;
+}
+
+header .container .right .register-box{
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 12px rgba(166, 166, 166, 0.25);
+}
+
+header .container .right .register-box p{
+    color: #8692A6;
+    font-size: 18px;
+
+}
+
+header .container .right .button-list{
+    margin-top: 40px;
+
+
+}
+
+header .container .right .button-list .main-button{
+
+    display: flex;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #e2dfdf;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+header .container .right .button-list .main-button .user{
+
+    width: 60px;
+    height: 60px;
+
+}
+
+
+header .container .right .button-list .main-button .content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+header .container .right .button-list .main-button .content label{
+
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+header .container .right .button-list .main-button .content span{
+
+    color: #8692A6;
+    font-size: 14px;
+}
+
+header .container .right .button-list .main-button .arrow-svg{
+
+    width: 30px;
+    height: 30px;
+}
+
+header .container .right .button-list .main-button:hover{
+
+    border: 1px solid #1565D8;
+    background-color: #F5F9FF;
+
+
+}
+
+section.about-us{
+
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    overflow: hidden;
+   
+
+}
+
+section.about-us .container{
+    display: flex;
+    align-items: center;
+
+}
+
+section.about-us .container .half{
+
+    width: 50%;
+
+}
+
+section.about-us .container .half img{
+
+    width: 60%;
+
+}
+
+section.about-us .container .half p{
+
+    color: #8692A6;
+
+
+}
+
+section.awesome{
+    background-color: #EFEEEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+section.awesome .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.awesome .container h2{
+    width: 50%;
+    text-align: center;
+
+}
+
+section.awesome .container p{
+    width: 60%;
+    text-align: center;
+    color: #5F5F5F;
+
+}
+
+section.tips{
+    width: 100%;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section.tips .container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section.tips .container .content{
+
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+
+}
+
+section.tips .container .content .half{
+
+    width: 50%;
+    padding: 10px;
+
+}
+
+section.tips .container .content .half p{
+    color: #5F5F5F;
+    
+
+}
+
+
+section.how-to{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+section.how-to .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.how-to .container .step{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+section.how-to .container .step h2{
+    color: #35688D;
+    font-size: 70px;
+}
+
+section.how-to .container .step img{
+    width: 300px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+section.how-to .container .step .content label{
+    font-weight: 600;
+
+}
+
+section.how-to .container .step .content p{
+    font-size: 14px;
+    color: #5F5F5F;
+
+}
+
+
+footer{
+    width: 100%;
+    background-color: #1E2833;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+footer .container .content{
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+footer .container .content .half-m{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+
+footer .container .content .half-m .primary-button{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #35688D;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+
+footer .container .content .half-m h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+footer .container .content .half{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .container .content .half a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+footer .container .content .half a:hover{
+    color: rgb(228, 224, 224);
+
+}
+
+footer .container .f-bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+footer .container .f-bottom .lf{
+    display: flex;
+
+}
+footer .container .f-bottom .lf a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-right: 15px;
+
+}
+
+footer .container .f-bottom .lf a i{
+    font-size: 18px;
+}
+
+
+section.form-box{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: -350px;
+
+}
+
+section.form-box .form{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section.form-box .form img{
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    margin-bottom: 30px;
+
+}
+
+.no-position{
+    position: unset !important;
+}
+
+section.form-box .form h2{
+    margin-block-end: 0em;
+}
+
+section.form-box .form p{
+    color: #8692A6;
+    font-size: 18px;
+}
+
+section.form-box .form .form-control{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+}
+
+section.form-box .form .form-control label{
+    color: #696F79;
+    font-size: 15px;
+
+}
+
+section.form-box .form .form-control input[type=text]{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border: 1px solid #8692A6;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 18px;
+    
+
+}
+
+section.form-box .form .form-control input[type=text]:focus{
+    border: 2px solid #35688D;
+    
+    
+}
+
+
+section.form-box .form .form-control input[type=email]{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border: 1px solid #8692A6;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 18px;
+    
+
+}
+
+section.form-box .form .form-control input[type=email]:focus{
+    border: 2px solid #35688D;
+    
+    
+}
+
+
+section.form-box .form .form-control input[type=password]{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border: 1px solid #8692A6;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 18px;
+    
+
+}
+
+section.form-box .form .form-control input[type=password]:focus{
+    border: 2px solid #35688D;
+    
+    
+}
+
+section.form-box .form .form-control span{
+    color: red;
+    
+}
+
+section.form-box .form p a{
+    text-decoration: none;
+    color: #35688D;
+    font-weight: 500;
+
+}
+
+section.form-box .form .form-control input[type=submit]{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #35688D;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+section.form-box .form .form-control input[type=submit]:active{
+    background-color: #1e3b4e;
+
+}
+
+section.form-box .form .form-control input[type=submit]:hover{
+    background-color: #2d5775;
+}
